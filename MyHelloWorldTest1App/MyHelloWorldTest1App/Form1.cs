@@ -47,5 +47,10 @@ namespace MyHelloWorldTest1App
         {
             textBox1.Text += "Button Pressed\r\n";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
