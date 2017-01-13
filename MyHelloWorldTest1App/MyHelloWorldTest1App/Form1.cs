@@ -8,6 +8,8 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Utilities;
+
 namespace MyHelloWorldTest1App
 {
     public partial class Form1 : Form
@@ -51,6 +53,11 @@ namespace MyHelloWorldTest1App
         private void button1_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SystemCalls.GetProcesses();
         }
     }
 }
